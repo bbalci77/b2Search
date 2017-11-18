@@ -1,0 +1,12 @@
+
+<Editor> C:\Program Files (x86)\Notepad++\notepad++.exe
+<CommandSep> -n
+<AdditionalCommand>
+<DefaultWholeWord> No
+<DefaultDontSearchComment> Yes
+<DefaultCaseSensitive> Yes
+<DefaultFunctionSearch> No
+<DefaultDefineSearch> No
+<LastSearchLocation> D:\SetUp\perl\tips
+<LastSearchPattern> hex
+<LastSearchMask> .txt
