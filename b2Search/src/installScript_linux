@@ -1,0 +1,13 @@
+#!/bin/sh
+mkdir /etc/b2Search
+cp b2SearchCfg.txt /etc/b2Search
+chmod 777 /etc/b2Search/b2SearchCfg.txt
+cp b2SearchHistory.txt /etc/b2Search
+chmod 777 /etc/b2Search/b2SearchHistory.txt
+cp b2SearchDirHistory.txt /etc/b2Search
+chmod 777 /etc/b2Search/b2SearchDirHistory.txt
+
+cp b2SearchGui.plx /usr/local/bin
+chmod 777 /usr/local/bin/b2SearchGui.plx
+
+nautilus -q && nautilus &

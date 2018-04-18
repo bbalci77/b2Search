@@ -1,0 +1,49 @@
+12apr18,bb  - added double left click for patter and dir entries to select all text
+11apr18,bb  - added history recording for searched directories
+            - added drop-down list for last 20 searches for pattern and directory
+            - added support for sublime text editor for linux
+10apr18,bb  - added ctrl-a to select all text in text widgets
+            - added right click popup menu for text widgets to copy/paste
+09apr18,bb  - skip special character files with -c flag
+04apr18,bb  - added binary search option checkbutton
+01apr18,bb  - added binary file search
+31mar18,bb  - added skipping link to folders
+            - added checking of newline in the test result added, if not exist newline is put
+            - changed file open error behavior from throwing exception to just skipping that file
+30mar18,bb  - fixed memory leakage error, delted return of process_files method it is not used anywhere
+21nov17,bb  - fixed error while searching symbolic link file (ignore link files)
+            - skip binary files as the matches corrupt the result screen because of missing newline
+29oct17,bb  - performance fixes: update gui only in every 100ms to increase search speed
+            - added history
+            - increased highlight window text width to 400 from 40
+17oct17,bb  - fixed error in openning files with a space in the name
+            - fixed error in define search when white character between # and define
+02oct17,bb  fixed emtpy string search pattern error (i.e for file search for SATA)
+26sep17,bb  made the pattern entry widget selected and focused as the program opens
+25sep17,bb  changde background colors to white for linux
+23aug17,bb  fixed multiline comment discard error - red colors disappear after multiline comment
+17aug17,bb  prevented opening command window when b2Search starts
+08aug17,bb  set hihglight window dimensions as the same with the main window dimensions
+07aug17,bb  (for LINUX)added one space between additional command and line no
+03aug17,bb - added line highlighting in the highlight window
+           - created functions for repeated codes
+           - fixed exception when closing and opening new highlight windows, now highligh window is not created and deleted repeatedly
+             a window is created initially for hihglighting and made invisible and visible depending on the needs
+           - added reading and recording of window size and window poistion to configuration file
+02aug17,bb - added line selection at right click
+           - added only right clicking support to highligh file instead of first left click and right clicking
+01aug17,bb highlighted pattern with color red in search results
+21jly17,bb - Discard special characters from search pattern before starting search
+           - Expaneded text boxes when window is resized
+           - Default size of the main window is increased
+05jly17,bb - Fixed mask bug . was discarded, used quetameta to use escape characters
+           - Added reading of line no separator in editor call from config file
+           - Added extra command option to config file to enter to the end of line in editor call
+           - Made Linux and Windows source files common
+04jly17,bb - Added callback to delete old value of entry widgets after pasting new value
+           - Renamed all files to b2Search
+01jly17,bb - If multiple matches in a file, write file name only once
+           - Last search destination, mask and pattern is recoreded and reloaded in next program start
+           - Added search summary at the end of the listbox (Total searched files matched files total matces)
+           - Added help balloons for check boxes
+           - Deleted quit button

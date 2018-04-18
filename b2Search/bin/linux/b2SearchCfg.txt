@@ -1,0 +1,17 @@
+
+<Editor> C:\Program Files\IDM Computer Solutions\UltraEdit\uedit64.exe
+<CommandSep> /
+<AdditionalCommand> &
+<DefaultWholeWord> 0
+<DefaultDontSearchComment> 0
+<DefaultCaseSensitive> 0
+<DefaultFunctionSearch> 0
+<DefaultDefineSearch> 0
+<DefaultBinarySearch> 0
+<LastSearchLocation> C:\WR68\vxworks-6.8\target\h
+<LastSearchPattern> printf
+<LastSearchMask> .c;.h
+<LastWindowX> 40
+<LastWindowY> 63
+<LastWindowWidth> 723
+<LastWindowHeight> 629
