@@ -1,6 +1,7 @@
 # b2Search
 Search inside folders and files
 
+Windows Instructions:
 
 1- Open cmd as Administrator
 2- run install_bbSearch.bat in command prompt
@@ -9,6 +10,11 @@ Search inside folders and files
 	Save file.
 4- Right click any folder and select bbSearch to start searching
 
+Linux Instruction:
+1- run the install script under linux setup directory
+2- install perl-tk
+3- install nautilus-actions
+4- 
 
 
 Tips:
@@ -29,3 +35,4 @@ Search button becomes Stop button when a search is started. You can stop the sea
 
 Multiple file masks can be given separated by ;
 	Example .c;.h
+	
